@@ -1,0 +1,31 @@
+ *{
+    box-sizing: border-box;
+ }
+ 
+ .title{
+    color: rgb(0, 0, 0);
+    font-family: Libre Franklin;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.text{
+    color: rgb(153, 153, 153);
+    font-family: IBM Plex Mono;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.block-servers{
+    border: 1px solid gray;
+    display: inline-block;
+    width: 200px;
+    padding: 51px 64px 109px 41px; 
+}
+

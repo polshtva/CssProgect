@@ -1,0 +1,102 @@
+.block-hover{
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+}
+
+.block-hover:hover{
+    background-color: bisque;   
+}
+
+.block-hover:active{
+    background-color: black;
+}
+
+
+a:link{
+    color: green;
+}
+
+input{
+    border: 1px solid red;
+}
+
+input:focus{
+    background-color: antiquewhite;
+}
+
+/* input[type="checkbox"]:checked+span{
+    color: orange;
+    font-weight: 800;
+    font-style: italic;
+} */
+
+input:not(.check)+span{
+    color: green;
+}
+
+/* .list-child li:first-child{
+    background-color: black;
+    color: white;
+
+}
+
+.list-child li:last-child {
+    background-color: bisque;
+    color: white;
+} */
+
+/* 
+.list-child li:nth-child(7){
+    color: blue;
+} */
+
+
+.list-child li::before{
+    content: "\2600";
+    background-color: aquamarine;
+    color: red;
+}
+
+.list-child li::after {
+    content: "\2654";
+    background-color: yellow;
+    color: green;
+}
+
+span, div{
+    background-color: aquamarine;
+    width: 100px;
+}
+
+.block{
+    width: 100px;
+    height: 100px;
+}
+
+.block-1{
+   background-color: yellow;
+   display: inline-block;
+}
+
+.block-2{
+    background-color: greenyellow;
+    display: inline-block;
+}
+
+.block-3{
+    background: rgb(17, 17, 110);
+    display: inline-block;
+}
+
+
+.block-4{
+    width: 20px;
+    height: 20px;
+    background-color: antiquewhite;
+}
+
+
+.value{
+    display: block;
+}
